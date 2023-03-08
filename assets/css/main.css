@@ -1590,8 +1590,9 @@ input, select, textarea {
 
 	
 
-	@media (max-width: 380px) {
+	@media screen and (max-width: 380px) {
 
+		
 		.sml_screen {
 			font-size: 0.9em;
 			font-weight: 500;
@@ -3594,7 +3595,7 @@ input, select, textarea {
 			#main > section > .RR {
 				display: block;
 				margin-top: 0;
-				font-size: 1.3em;
+				font-size: 1.2em;
 				margin-bottom: 0em;
 			}
 
