@@ -560,14 +560,22 @@ input, select, textarea {
 					padding-top: 4em;
 				}
 
-		@media screen and (max-width: 1920px) {
-			input, select, textarea {
-				font-size: 2em;
+		@media (max-width: 1920px) {
+			body, input, select, textarea {
+				font-size: 17pt;
 			}
+
+		/* Header */
+
+			#header {
+				width: 21pt;
+			}
+
 			
-			#main > section > .container {
-				padding: 0em 0 4em 0;
-			}
+
+			
+			
+
 
 		}
 
@@ -3137,7 +3145,7 @@ input, select, textarea {
 	}
 
 		#main > section > .container {
-			padding: 6em 0 4em 0;
+			padding: 0em 0 4em 0;
 		}
 
 		#main > section:first-child {
