@@ -1479,8 +1479,17 @@
 				min-width: 320px;
 			}
 
-
-
+			.major li {
+				margin: 0;
+    			padding: 0;
+    			border: 0;
+    			font: inherit;
+    			vertical-align: baseline;
+    			color: black;
+    			z-index: 0;
+    			background: rgba(255, 255, 255, 0.7);
+    			position: relative;
+			}
 
 
 			#main > section > .RR {
@@ -1537,6 +1546,7 @@
 
 			  .kontakt_tab .green {
 				  display: block;
+				  font-size: 11pt;
 
 			  }
 
@@ -1544,7 +1554,8 @@
 				margin-top: 3em;
 			}
 
-
+			
+			
 
 
 	}
