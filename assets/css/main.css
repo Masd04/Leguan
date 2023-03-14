@@ -826,6 +826,8 @@
 					padding: 0;
 				}
 
+								
+
 					#header > nav ul li a {
 						-moz-transition: none;
 						-webkit-transition: none;
@@ -996,7 +998,7 @@
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 14pt;
+				font-size: 13.5pt;
 			}
 
 		/* Header */
