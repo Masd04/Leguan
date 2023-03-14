@@ -996,7 +996,7 @@
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 15pt;
+				font-size: 14pt;
 			}
 
 		/* Header */
@@ -1030,7 +1030,7 @@
 					max-width: 1300px;
 					min-width: 300px;
 					height: auto;
-					margin-left: 0em;
+					margin-left: 1em;
 					position: static;
 					user-select: none;
 				}
