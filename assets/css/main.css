@@ -825,6 +825,11 @@
 					display: block;
 					padding: 0;
 				}
+				/*	Odstranění bílého místa nad PROFILem	*/
+				#header > nav ul li.profilnav {
+					border-top: solid 1px #689835;
+					
+				}
 
 								
 
