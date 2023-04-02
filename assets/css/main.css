@@ -751,6 +751,10 @@
 			padding: 3em;
 		}
 
+		#header > header span.emptyrow {
+			display: block;
+		}
+
 
 			#header > header h1 {
 				font-size: 1.75em;
@@ -903,6 +907,13 @@
 
 		}
 
+		.major li.reflist {
+			/*color: red;*/
+			font-size: 1.3em;
+			margin-bottom: 1em;
+			list-style-type: circle;
+		}
+
 /* Footer */
 
 	#footer {
@@ -926,6 +937,7 @@
 				font-size: 0.8em;
 				margin-left: 0em;
 				padding-left: 0em;
+				margin-top: 2em;
 
 			}
 
@@ -946,7 +958,7 @@
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 17pt;
+				font-size: 16.5pt;
 			}
 
 		/* Header */
@@ -1003,7 +1015,7 @@
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 13.5pt;
+				font-size: 12.5pt;
 			}
 
 		/* Header */
