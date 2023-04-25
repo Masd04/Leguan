@@ -22,6 +22,8 @@
     	vertical-align: baseline;
 	}
 
+	
+
 
     sup {
         font-size: 0.8em;
@@ -146,6 +148,10 @@
 		margin: 0 0 2.25em 0;
 	}
 
+	#cenik_p_top {
+		margin: 0 0 0 0;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		color: rgb(23, 22, 22);
 		font-weight: 700;
@@ -173,6 +179,10 @@
 	h4 {
 		font-size: 1.25em;
 		line-height: 1.5em;
+	}
+
+	#natery {
+		margin-top: 1em;
 	}
 
 	h5 {
@@ -951,9 +961,67 @@
 					color: inherit;
 				}
 
+	
+				@media screen and (min-width: 2000px) {
+
+					/* Basic */
+			
+						body, input, select, textarea {
+							font-size: 17.5pt;
+						}
+			
+					/* Header */
+			
+						#header {
+							width: 21em;
+						}
+			
+							#header > header {
+								padding: 2em;
+							}
+			
+							#header > footer {
+								padding: 0;
+							}
+			
+							.profil_nadpis {
+								margin-top: -5em;
+							}
+			
+							#main > section > .RR {
+								display: block;
+								margin-top: 0;
+								font-size: 2.8em;
+								margin-bottom: 0;
+			
+							}
+			
+							.image.main img {
+								border-radius: 0;
+								max-width: 1300px;
+								min-width: 300px;
+								height: auto;
+								margin-left: 9em;
+								position: static;
+								user-select: none;
+							}
+					/* Wrapper */
+			
+						#wrapper {
+							padding-right: 22em;
+						}
+			
+					/* Main  - místo na logo/popis*/
+			
+						#main > section > .container {
+							padding: 0em 0 2em 0;
+						}
+			
+				}			
+
 /* XLarge */
 
-	@media screen and (min-width: 1630px) {
+	@media screen and (min-width: 1630px) and (max-width: 2000px) {
 
 		/* Basic */
 
