@@ -34,9 +34,11 @@
 	.bg_nabidka {
 		position: relative;
 		top: 0;
-		left: 0;
-		right: 0;
 		bottom: 0;
+		right: 0;
+		left: 0;
+		
+			
 	}
 	
 
@@ -48,12 +50,13 @@
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background-image: url("../../images/logos2.png");
-		background-size: contain;
-		background-position: center 2em;
+		background-image: url("/images/logos2.png");
+		background-size: 35em;;
+		background-position: right 1em;
 		background-repeat: no-repeat;
-		opacity: 0.5; /* Adjust the opacity value as needed */
+		opacity: 0.9; /* Adjust the opacity value as needed */
 		z-index: -1;
+		
 	}
 
 	.bg_cenik {
@@ -73,12 +76,40 @@
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background-image:  url("../../images/logos2.png");
+		background-image: url("/images/logos2.png");
 		background-size: contain;
 		background-position: center top;
 		background-repeat: no-repeat;
-		opacity: 0.5; /* Adjust the opacity value as needed */
+		opacity: 0.09; /* Adjust the opacity value as needed */
 		z-index: -1;
+	}
+
+	.bg_reference {
+		position: relative;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		
+			
+	}
+	
+
+	/*  pozadí  reference  */
+	.bg_reference::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-image: url("/images/logos2.png");
+		background-size: 12em;;
+		background-position: left top;
+		background-repeat: no-repeat;
+		opacity: 0.9; /* Adjust the opacity value as needed */
+		z-index: -1;
+		
 	}
 	
 	.profil {
@@ -102,12 +133,12 @@
 	border: 0;
 	font-size: 100%;
 	font-weight: bolder;
-	/**/
+	
 	font: inherit;
 	vertical-align: baseline;
 	color: black;
 	z-index: 0;
-	background: rgba(255, 255, 255, 0.42);
+	/*background: rgba(255, 255, 255, 0.42);*/
 	position: relative;
 	border-radius: 25%;
 	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1), -1px -1px 0px rgba(0, 0, 0, 0.1);
@@ -691,8 +722,8 @@
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: #fafafa88;
-				text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1), -1px -1px 0px rgba(0, 0, 0, 0.1);
+				/*background-color: #fafafa88;*/
+				/*text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1), -1px -1px 0px rgba(0, 0, 0, 0.1);*/
 				
 				
 				
