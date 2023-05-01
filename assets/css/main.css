@@ -50,7 +50,7 @@
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background-image: url("/images/logos2.png");
+		background-image: url("../../images/logos2.png");
 		background-size: 35em;;
 		background-position: right 1em;
 		background-repeat: no-repeat;
@@ -76,7 +76,7 @@
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background-image: url("/images/logos2.png");
+		background-image: url("../../images/logos2.png");
 		background-size: contain;
 		background-position: center top;
 		background-repeat: no-repeat;
@@ -103,7 +103,7 @@
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background-image: url("/images/logos2.png");
+		background-image: url("../../images/logos2.png");
 		background-size: 12em;;
 		background-position: left top;
 		background-repeat: no-repeat;
