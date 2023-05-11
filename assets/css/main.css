@@ -22,8 +22,6 @@
     	vertical-align: baseline;
 	}
 
-	
-
 
     sup {
         font-size: 0.8em;
@@ -31,7 +29,8 @@
         top: -0.5em;
     }
 
-	.bg_nabidka {
+
+	.bg_main {
 		position: relative;
 		top: 0;
 		bottom: 0;
@@ -41,7 +40,8 @@
 			
 	}
 	
-	.bg_nabidka::before {
+
+	.bg_main::before {
 		content: "";
 		position: absolute;
 		top: 0;
@@ -55,91 +55,7 @@
 		opacity: 0.3; /* Adjust the opacity value as needed */
 		z-index: -1;
 	}
-	/*  pozadí  nabídka  */
-	/*.bg_nabidka::before {
-		content: "";
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		background-image: url("../../images/logos2.png");
-		background-size: 35em;;
-		background-position: right 1em;
-		background-repeat: no-repeat;
-		opacity: 0.9;  Adjust the opacity value as needed 
-		z-index: -1;
-		
-	} */
 
-	.bg_cenik {
-		position: relative;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-	}
-	
-
-	/*  pozadí  nabídka  */
-	.bg_cenik::before {
-		content: "";
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		background-image: url("../../images/logos1111.png");
-		background-size: contain;
-		background-position: center 2.6em;
-		background-repeat: no-repeat;
-		opacity: 0.3; /* Adjust the opacity value as needed */
-		z-index: -1;
-		
-		
-	}
-
-	.bg_reference {
-		position: relative;
-		top: 0;
-		bottom: 0;
-		right: 0;
-		left: 0;
-		
-			
-	}
-	
-
-	/*  pozadí  reference  */
-	/*.bg_reference::before {
-		content: "";
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		background-image: url("../../images/logos2.png");
-		background-size: 12em;;
-		background-position: left top;
-		background-repeat: no-repeat;
-		opacity: 0.9;
-		z-index: -1;
-		
-	}*/
-	.bg_reference::before {
-		content: "";
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		background-image: url("../../images/logos1111.png");
-		background-size: contain;
-		background-position: center top;
-		background-repeat: no-repeat;
-		opacity: 0.3; /* Adjust the opacity value as needed */
-		z-index: -1;
-	}
 	
 	.profil {
 	margin: 0;
@@ -152,7 +68,6 @@
 	z-index: 0;
 	background: rgba(255, 255, 255, 0.694);
 	position: relative;
-	
 	}
 
 
@@ -162,16 +77,12 @@
 	border: 0;
 	font-size: 1.5rem;
 	font-weight: bold;
-	
-	
 	vertical-align: baseline;
 	color: black;
 	z-index: 0;
-	/*background: rgba(255, 255, 255, 0.42);*/
 	position: relative;
 	border-radius: 25%;
 	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1), -1px -1px 0px rgba(0, 0, 0, 0.1);
-
 	}
 
 	
@@ -264,7 +175,7 @@
 	}
 
 	#cenik_p_top {
-		margin: 0 0 0 0;
+		margin: -1.2em 0 0 1em;
 		color: black;
 		font-weight: 600;
 	}
@@ -299,8 +210,10 @@
 	}
 
 	#natery {
-		margin-top: 0;
-		font-size: 1.8em;
+			padding: 0.75em 0.75em;
+			color: black;
+			font-weight: 700;
+			text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1), -1px -1px 0px rgba(0, 0, 0, 0.1);
 	}
 
 	h5 {
@@ -771,6 +684,7 @@
 			padding: 0.75em 0.75em;
 			color: black;
 			font-weight: 700;
+			
 		}
 
 		table th {
@@ -825,7 +739,7 @@
 		width: 30%;
     	text-align: center;
     	vertical-align: top;
-    	/*border: 1px solid Grey;*/
+    	
 	}
 
 	td.tdnabidka1 {
@@ -1050,7 +964,6 @@
 		}
 
 		.major li.reflist {
-			/*color: red;*/
 			font-size: 1.3em;
 			margin-bottom: 1em;
 			list-style-type: circle;
