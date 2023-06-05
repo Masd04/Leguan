@@ -969,6 +969,7 @@
 			list-style-type: circle;
 		}
 
+
 /* Footer */
 
 	#footer {
@@ -1459,7 +1460,7 @@
 	}
 
 			.title {
-				font-size: large;
+				font-size: medium;
 				font-family: Georgia, 'Times New Roman', Times, serif;
 			}
 
@@ -1599,6 +1600,45 @@
 				transform: translateX(-17em);
 			}
 
+			.major li {
+				margin: 0;
+    			padding: 0;
+    			border: 0;
+    			font: inherit;
+    			vertical-align: baseline;
+    			color: black;
+    			z-index: 0;
+    			position: relative;
+				text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1), -1px -1px 0px rgba(0, 0, 0, 0.1);
+			}
+
+			.bg_main {
+				position: relative;
+				top: 0;
+				bottom: 0;
+				right: 0;
+				left: 0;
+				
+					
+			}
+			
+		
+			.bg_main::before {
+				content: "";
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background-image: url("../../images/logos1111.png");
+				background-size: contain;
+				background-position: center top;
+				background-repeat: no-repeat;
+				opacity: 0.3; /* Adjust the opacity value as needed */
+				z-index: -1;
+				margin-top: 1.5em;
+			}
+
 	}
 
 /* XSmall aaaa */
@@ -1619,8 +1659,8 @@
     			vertical-align: baseline;
     			color: black;
     			z-index: 0;
-    			background: rgba(255, 255, 255, 0.7);
     			position: relative;
+				text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1), -1px -1px 0px rgba(0, 0, 0, 0.1);
 			}
 
 
@@ -1686,8 +1726,39 @@
 				margin-top: 3em;
 			}
 
+			.bg_main {
+				position: relative;
+				top: 0;
+				bottom: 0;
+				right: 0;
+				left: 0;
+				
+					
+			}
 			
+		
+			.bg_main::before {
+				content: "";
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background-image: url("../../images/logos1111.png");
+				background-size: contain;
+				background-position: center top;
+				background-repeat: no-repeat;
+				opacity: 0.3; /* Adjust the opacity value as needed */
+				z-index: -1;
+				margin-top: 2em;
+			}
+
 			
+			#overena-firma {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			  }
 
 
 	}
