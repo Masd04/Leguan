@@ -312,6 +312,7 @@
 		color: #fff;
 		font-size: 30px;
 		cursor: pointer;
+		user-select: none;
 	  }
 	  
 	  .tdnabidka img {
@@ -1360,6 +1361,7 @@
 			position: absolute;
 			top: 60px;
 			right: 20px;
+			user-select: none;
 		  }
 
 
