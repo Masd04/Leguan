@@ -4,6 +4,8 @@
 	<head>
 		<title>LeguanMB</title>
 		<meta charset="utf-8" />
+		<meta name="description" content="Webová stránka společnosti Leguan Mladá Boleslav s.r.o." />
+		<meta name="keywords" content="výškové práce, práce ve výškách, kácení stromů, čištění střech, mladá boleslav, arboristika" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 
@@ -37,6 +39,11 @@
 	</script> haha	-->	
 	
 	<body class="is-preload">
+
+			<!--	ŠIPKA	-->
+		<div class="animation-layer">
+			<div class="arrow-animation animate"></div>
+		  </div>
 
 		<!-- Header -->
 			<section id="header">
@@ -83,7 +90,7 @@
 								<h7 class="RR">Rolls-Royce mezi výškovými specialisty</h7>
 
 								<div class="image main" data-position="center">
-									<img src="images/logos2.png" alt="" />
+									<img src="images/logos2.png" alt="Logo Leguan" />
 								</div>
 
 								<div class="container">
@@ -110,7 +117,7 @@
 					<section id="footer">
 						<div class="container">
 							<ul class="copyright">
-								<li>Web designed by &copy; David Mašek</li>
+								<li>Website created by &copy; David Mašek</li>
 							</ul>
 						</div>
 					</section>
@@ -125,6 +132,25 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<!-- Šipka -->
+			<script>
+				// Wait for the page to load
+				window.addEventListener('load', function() {
+				// Get the arrow element
+				var arrowElement = document.querySelector('.arrow-animation');
+  
+				// Function to handle animation end
+				var handleAnimationEnd = function() {
+				  arrowElement.removeEventListener('animationend', handleAnimationEnd);
+  
+				  // Remove the arrow element from its parent
+				  arrowElement.parentNode.removeChild(arrowElement);
+				};
+  
+				// Listen for animation end
+				arrowElement.addEventListener('animationend', handleAnimationEnd);
+  				});
+			</script>
 
 	</body>
 </html>
