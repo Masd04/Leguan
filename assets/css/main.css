@@ -1,3 +1,4 @@
+
 /*	Po odstranění potřeba NASTAVIT NOVOU rohovou IKONKU pro navbar	*/
 @import url("fontawesome-all.min.css");
 
@@ -1411,6 +1412,19 @@
 					right: 0;
 				}
 
+				
+				/* Add blinking animation */
+	@keyframes blink {
+  	0% {
+   	 opacity: 1;
+ 	 	}
+ 	 50% {
+ 	   opacity: 0.5;
+ 	 }
+ 	 100% {
+ 	   opacity: 1;
+ 	 }
+}
 
 					/* BORDER ZDE */
 
@@ -1426,9 +1440,6 @@
 						font-family: 'Font Awesome 5 Free';
 						font-weight: 900;
 						border:2.5px solid #494848;
-					}
-
-					#titleBar .toggle:before {
 						background: #689835;
 						color: #ffffff;
 						content: '\f0c9';
@@ -1441,6 +1452,7 @@
 						top: 0;
 						width: 64px;
 						right: 0;
+						animation: blink 2s infinite;
 					}
 
 			body.header-visible #wrapper, body.header-visible #titleBar {
@@ -1589,7 +1601,7 @@
 			}
 
 				#titleBar .toggle:before {
-					font-size: 14px;
+					font-size: 22px;
 					width: 44px;
 				}
 
