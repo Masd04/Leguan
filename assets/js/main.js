@@ -156,35 +156,8 @@
 
 	})(jQuery);
 
-	function expandImage(element) {
-		var imageUrl = element.src;
-		var description = element.parentNode.querySelector('.popis2').textContent;
-	  
-		var expandedImage = document.getElementById('expanded-image');
-		expandedImage.src = imageUrl;
-	  
-		var expandedImageDescription = document.getElementById('expanded-image-description');
-		expandedImageDescription.textContent = description;
-	  
-		var expandedImageOverlay = document.getElementById('expanded-image-overlay');
-		expandedImageOverlay.style.display = 'flex';
-	  }
-	  
-	  function closeExpandedImage(event) {
-		var expandedImageOverlay = document.getElementById('expanded-image-overlay');
-		
-		// Close the expanded image only if clicked outside the image or the close button
-		if (event.target === expandedImageOverlay || event.target.id === 'expanded-image-close') {
-		  expandedImageOverlay.style.display = 'none';
-		}
-	  }
-	  
-	  document.addEventListener('DOMContentLoaded', function() {
-		var expandedImageOverlay = document.getElementById('expanded-image-overlay');
-		expandedImageOverlay.addEventListener('click', function(event) {
-		  closeExpandedImage(event);
-		});
-	  });
+	
+	
 	  
 	  
 	  
