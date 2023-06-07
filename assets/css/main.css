@@ -272,8 +272,57 @@
 	.profil_nadpis {
 		margin-top: -6em;
 	}
+  
 
+	/*	Rozklik obrázku  */
 
+	#expanded-image-overlay {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.8);
+		display: none;
+		justify-content: center;
+		align-items: center;
+		z-index: 9999;
+	  }
+	  
+	  #expanded-image-container {
+		position: relative;
+		max-width: 90%;
+		max-height: 90%;
+		text-align: center;
+	  }
+	  
+	  #expanded-image {
+		width: 50vh;
+	  }
+	  
+	  #expanded-image-description {
+		color: #fff;
+		margin-top: 10px;
+	  }
+	  
+	  #expanded-image-close {
+		position: fixed;
+		top: 10px;
+		right: 10px;
+		color: #fff;
+		font-size: 30px;
+		cursor: pointer;
+	  }
+	  
+	  .tdnabidka img {
+		cursor: pointer;
+	  }
+	  
+	  .image-container {
+		position: relative;
+		display: inline-block;
+	  }
+	  
 
 
 		@media (max-width: 1920px) {
@@ -1295,7 +1344,23 @@
 			}
 
 		/* Image */
+		#expanded-image-container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: calc(100% - 100px); /* Subtract close button height */
+		  }
 
+		  #expanded-image {
+			width: 40vh;
+		  }
+		  
+		  #expanded-image-close {
+			position: absolute;
+			top: 60px;
+			right: 20px;
+		  }
 
 
 			.image.main {
@@ -1434,7 +1499,7 @@
 					border-right: 10px solid transparent;
 					border-bottom: 20px solid #689835; /* Replace with your desired arrow color */
 					transform: rotate(0);
-					animation: arrowAnimation 6s 1.5;
+					animation: arrowAnimation 5s 1.5;
 				  }
 				  
 				  .arrow-animation::before {
