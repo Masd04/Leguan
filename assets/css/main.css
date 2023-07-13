@@ -908,16 +908,7 @@
 
 
 
-		#header > footer {
-			-moz-flex-shrink: 0;
-			-webkit-flex-shrink: 0;
-			-ms-flex-shrink: 0;
-			flex-shrink: 0;
-			bottom: 0;
-			left: 0;
-			padding: 2em;
-			width: 100%;
-		}
+		
 
 
 
@@ -1026,40 +1017,18 @@
 
 /* Footer */
 
-	#footer {
-		background: #fafafa;
-		border-top: 0;
-		color: #c0c0c0;
-		overflow: hidden;
-		padding: 0 0 0 0;
-		text-align: left;
+	.footerCont {
+		max-width: calc(100% - 4.5em);
+		width: 45em;
 	}
 
-		#footer .copyright {
-			line-height: 1em;
-			list-style: none;
-			padding: 0;
-		}
+	.sigdiv {
+		width: inherit;
+		display: flex;
+		justify-content: start;
+	}
 
-			#footer .copyright li {
-				border-left: solid 1px #d4d4d4;
-				display: inline-block;
-				font-size: 0.8em;
-				margin-left: 0em;
-				padding-left: 0em;
-				margin-top: 2em;
-
-			}
-
-				#footer .copyright li:first-child {
-					border-left: 0;
-					margin-left: 0;
-					padding-left: 0;
-				}
-
-				#footer .copyright li a {
-					color: inherit;
-				}
+	
 
 	
 				@media screen and (min-width: 2000px) {
@@ -1080,9 +1049,6 @@
 								padding: 2em;
 							}
 			
-							#header > footer {
-								padding: 0;
-							}
 			
 							.profil_nadpis {
 								margin-top: -5em;
@@ -1139,9 +1105,7 @@
 					padding: 2em;
 				}
 
-				#header > footer {
-					padding: 0;
-				}
+				
 
 				.profil_nadpis {
 					margin-top: -5em;
@@ -1196,9 +1160,7 @@
 					padding: 2em;
 				}
 
-				#header > footer {
-					padding: 0;
-				}
+				
 
 				.profil_nadpis {
 					margin-top: -5em;
@@ -1254,9 +1216,7 @@
 					padding: 2em;
 				}
 
-				#header > footer {
-					padding: 0;
-				}
+				
 
 				.profil_nadpis {
 					margin-top: -10em;
@@ -1409,14 +1369,7 @@
 				right: 0;
 			}
 
-				#header > footer {
-					bottom: auto;
-					left: auto;
-					margin: 0.5em 0 0 0;
-					position: relative;
-					right: auto;
-					top: auto;
-				}
+				
 
 		/* Wrapper */
 
@@ -1687,9 +1640,7 @@
 						margin: 1em 0 0 0;
 					}
 
-				#header > footer {
-					padding: 1.5em;
-				}
+				
 
 		/* Main */
 
@@ -1697,23 +1648,7 @@
 				padding: 0 0 0 0;
 			}
 
-		/* Footer */
-
-			#footer {
-				text-align: center;
-			}
-
-				#footer .copyright li {
-					border-left: 0;
-					display: block;
-					line-height: 1.75em;
-					margin: 0.75em 0 0 0;
-					padding-left: 0;
-				}
-
-					#footer .copyright li:first-child {
-						margin-top: 0;
-					}
+		
 
 		/* Header Panel */
 
